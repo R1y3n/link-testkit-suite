@@ -5,7 +5,10 @@ import re
 import argparse
 
 # Reliable 100MB test file
-TEST_URL = "https://speed.hetzner.de/100MB.bin"
+#TEST_URL = "https://speed.hetzner.de/100MB.bin" #this url was shut down
+#TEST_URL = "https://proof.ovh.net/files/100Mb.dat" #only if your connection is good
+TEST_URL = "https://proof.ovh.net/files/10Mb.dat"
+
 
 def run_speed_test(interface):
     print("=" * 50)
